@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">LOREM IPSUM</a>
+          <button class="navbar-toggler border-secondary-subtle border-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <form class="d-flex d-lg-none my-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-white mx-lg-5" aria-current="page" href="#">Dolor</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-lg-5" href="#">Sit</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white mx-lg-5" href="#">Amet</a>
+              </li>
+            </ul>
+            <form class="d-flex d-none d-xl-block d-lg-block" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <div class="dropdown d-lg-none">
+                <button class="btn text-white border-0 p-0" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  Opciones
+                </button>
+                <ul class="dropdown-menu mt-2 w-100 border-0" aria-labelledby="dropdownMenuButton1">
+                  <li class="w-50 mx-auto border border-secondary-subtle rounded"><a class="dropdown-item" href="#">Opción 1</a></li>
+                  <li class="w-50 mx-auto  border border-secondary-subtle rounded"><a class="dropdown-item" href="#">Opción 2</a></li>
+                  <li class="w-50 mx-auto  border border-secondary-subtle rounded"><a class="dropdown-item" href="#">Opción 3</a></li>
+                  <li class="w-50 mx-auto  border border-secondary-subtle rounded"><a class="dropdown-item" href="#">Opción 4</a></li>
+                </ul>
+              </div>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container">
+        <h1 class="text-center">Lorem Ipsum</h1>
+        <div id="carouselExampleAutoplaying" class="carousel slide text-center" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum.</p>
+              </div>
+              <div class="carousel-item">
+                <p>Mauris malesuada libero arcu, eu laoreet metus posuere vitae. </p>
+              </div>
+              <div class="carousel-item">
+                <p>Vivamus congue sagittis fermentum. Sed aliquet ullamcorper turpis.</p>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+
+    <div class="row my-3 mx-5">
+        <div class="col-lg-3 d-none d-xl-block d-lg-block">
+            <ul class="list-group">
+                <li class="list-group-item"><a class=" text-black" href="#">Opción 1</a></li>
+                <li class="list-group-item"><a class=" text-black" href="#">Opción 2</a></li>
+                <li class="list-group-item"><a class=" text-black" href="#">Opción 3</a></li>
+                <li class="list-group-item"><a class=" text-black" href="#">Opción 4</a></li>
+            </ul>
+        </div>
+        <div class="container col-lg-9 col-md-12 col-sm-12">
+            <div class="row align-items-start">
+                <div class="col-lg-4 col-md-6 col-xs-12 col-sm-12">
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis bibendum, odio commodo laoreet placerat, felis erat volutpat quam, eget egestas nisl tortor sit amet velit. Phasellus vestibulum est vitae quam condimentum vehicula. Nulla venenatis laoreet eros at auctor. Mauris malesuada libero arcu, eu laoreet metus posuere vitae.</p>
+                    <p class="text-justify">Pellentesque sodales mauris turpis, eget gravida ante pellentesque a. Ut fermentum libero eget lorem posuere, sit amet ornare nisi pharetra. Fusce ac fermentum sapien. Ut vel massa augue. Etiam bibendum bibendum eros ac luctus. Vestibulum congue, mauris non sollicitudin sagittis, felis arcu molestie mi, vel elementum sapien ligula quis velit.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-xs-12 col-sm-12">
+                    <p class="text-justify">Vivamus congue sagittis fermentum. Sed aliquet ullamcorper turpis. Praesent eget purus vestibulum, condimentum diam ut, mattis ligula. Sed lobortis imperdiet augue. Sed id imperdiet orci, non consequat tortor. Vestibulum congue, mauris non sollicitudin sagittis, felis arcu molestie mi, vel elementum sapien ligula quis velit.</p>
+                    <p class="text-justify">Morbi ornare, turpis vitae porta maximus, est nulla ultricies magna, in pharetra nibh arcu sed sem. Maecenas vel enim a ligula sollicitudin pharetra rutrum id eros. Donec quis lobortis ex. Vestibulum congue, mauris non sollicitudin sagittis, felis arcu molestie mi, vel elementum sapien ligula quis velit.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-xs-12 col-sm-12">
+                    <p class="text-justify">Donec orci turpis, porttitor non luctus nec, pellentesque vel quam. Phasellus iaculis, risus ac tempus feugiat, lectus odio porttitor quam, vel elementum velit massa ut ligula.Vestibulum congue, mauris non sollicitudin sagittis, felis arcu molestie mi, vel elementum sapien ligula quis velit.</p>
+                    <p class="text-justify">Quisque egestas ac libero vel venenatis. Praesent a urna venenatis, lacinia metus ac, rutrum enim. Cras auctor dolor mauris, nec euismod justo dignissim sed. In sit amet porta metus. Nam eu egestas justo, et mattis lectus. Vestibulum congue, mauris non sollicitudin sagittis, felis arcu molestie mi, vel elementum sapien ligula quis velit.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
